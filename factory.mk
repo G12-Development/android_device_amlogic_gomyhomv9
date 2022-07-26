@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-FACTORY_PATH := device/amlogic/hertz/factory
+FACTORY_PATH := device/amlogic/gomyhomv9/factory
 
 PRODUCT_UPGRADE_OUT := $(PRODUCT_OUT)/upgrade
 PACKAGE_CONFIG_FILE := $(PRODUCT_UPGRADE_OUT)/image.cfg

@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-include vendor/amlogic/hertz/BoardConfigVendor.mk
+include vendor/amlogic/gomyhomv9/BoardConfigVendor.mk
 
-DEVICE_PATH := device/amlogic/hertz
+DEVICE_PATH := device/amlogic/gomyhomv9
 
 ## Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := $(DEVICE_PATH)/bluetooth/include
@@ -15,10 +15,10 @@ BOARD_HAVE_BLUETOOTH := true
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 ## Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := hertz
+TARGET_BOOTLOADER_BOARD_NAME := gomyhomv9
 
 ## DTB
-TARGET_DTB_NAME := hertz_3g
+TARGET_DTB_NAME := gomyhomv9
 
 # GPU
 TARGET_AMLOGIC_GPU_ARCH := midgard

@@ -4,9 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/amlogic/hertz
+DEVICE_PATH := device/amlogic/gomyhomv9
 
-$(call inherit-product, vendor/amlogic/hertz/hertz-vendor.mk)
+$(call inherit-product, vendor/amlogic/gomyhomv9/gomyhomv9-vendor.mk)
 
 ## Factory
 PRODUCT_HOST_PACKAGES += \
