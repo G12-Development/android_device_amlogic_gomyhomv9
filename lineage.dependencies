@@ -2,5 +2,9 @@
   {
     "repository": "android_device_amlogic_gx-common",
     "target_path": "device/amlogic/gx-common"
+  },
+  {
+    "repository": "android_hardware_amlogic_kernel-modules_qca9377",
+    "target_path": "hardware/amlogic/kernel-modules/qca9377"
   }
 ]

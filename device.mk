@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 
 ## Kernel Modules
 PRODUCT_PACKAGES += \
-    dhd
+    qca9377
 
 ## Overlays
 DEVICE_PACKAGE_OVERLAYS += \
